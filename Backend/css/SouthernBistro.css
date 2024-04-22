@@ -1,0 +1,131 @@
+* {
+	box-sizing: border-box;
+	 margin: 0;
+        padding: 0;
+        vertical-align: baseline;
+        background: transparent;
+}
+header, nav, main, footer {
+	display: block;
+}
+
+
+ h1 {
+	padding-top: 35px;
+	text-align: center;
+  }
+
+header {
+	background-color: #AC3D01;
+	height: 260px;
+}
+
+ table, th, td, tr {
+    border: outset 3px #AC3D01;
+	text-align: center;
+	padding: 1em;
+}
+ 
+
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.ordertable {
+	border: outset 3px #AC3D01;
+	text-align: center;
+	padding: 1em;
+	border-collapse: collapse;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, 
+	sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	table-layout: fixed;
+	width: 1800px;
+}
+ .insideordertable{
+    border: 1px solid black;
+	border: outset 3px #AC3D01;
+	text-align: center;
+	padding: 1em;
+    border-collapse: collapse;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, 
+	sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	table-layout: fixed;
+	width: 550px;
+}
+
+  main {
+	  background-color: #ffffff;
+  background-repeat: repeat;
+           color: #000000;
+		    padding-top: 20px;
+			padding-right: 10px;
+			padding-bottom: 20px;
+			padding-left: 10px;
+		overflow: auto; 
+		   min-height: 100px;
+	background-position: right bottom;
+	
+  }
+  h2 { color: #000000; 
+	 margin: 20px;
+  }
+    h3 { color: #000000; 
+	 margin: 20px;
+  }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #333439;
+  text-align: left;
+  background-color: #fff;
+}
+p {margin: 20px;
+}
+
+footer {font-size:70%;
+         text-align: center;
+         padding: 10px;
+		 clear: both;
+}
+.full-width-bg{
+               
+}
+.topnav {
+    background-color: #333439;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button {
+    background-color: #333439;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
